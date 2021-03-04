@@ -75,7 +75,17 @@ public class test {
 		System.out.println("The original mySet2 = " + setlist2);
 		mySet2.remove(2);
 		setlist2 = mySet2.toString();
-		System.out.println("mySet2 after removeing the using mySet2.remove(2) = " + setlist2);
+		System.out.println("mySet2 after using mySet2.remove(2) = " + setlist2);
+		
+		System.out.println("The current mySet2 is: " +setlist2);
+		mySet2.remove(2);
+		setlist2 = mySet2.toString();
+		System.out.println("mySet2 after using mySet2.remove(2) again = " + setlist2);
+		
+		System.out.println("The current mySet2 is: " +setlist2);
+		mySet2.add(1);
+		setlist2 = mySet2.toString();
+		System.out.println("mySet2 after using mySet2.add(1) with 1 already present = " + setlist2);
 		
 		System.out.println("The current mySet2 is: " + setlist2);
 		mySet2.clear();
@@ -93,7 +103,7 @@ public class test {
 		
 		mySet3.intersection(mySet5);
 		String setinter = mySet3.toString();
-		System.out.println("The result of an intersectin between mySet3 and mySet5 is: " + setinter);
+		System.out.println("The result of an intersection between mySet3 and mySet5 is: " + setinter);
 		
 		mySet5.difference(mySet6);
 		String setdiff = mySet5.toString();

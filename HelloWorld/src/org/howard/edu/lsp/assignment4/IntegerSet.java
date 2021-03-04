@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 /**
  * 
- * @author ahmed
  * Self defined IntegerSetException which extends exception
+ * @author ahmed
  *
  */
 class IntegerSetException extends Exception {
@@ -24,8 +24,8 @@ class IntegerSetException extends Exception {
 
 /**
  * 
- * @author ahmed
  * IntegerSet class which contains all of the methods
+ * @author ahmed
  *
  */
 public class IntegerSet {
